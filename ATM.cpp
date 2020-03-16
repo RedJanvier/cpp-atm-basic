@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string.h>
+
+#include "User.h"
+
 using namespace std;
 
 int promptChoice() {
@@ -13,6 +16,7 @@ int promptChoice() {
 }
 
 int main() {
+	User test;
 	int balance[15] = { 50, 782400, 50300, 670, 95800, 4550, 63450, 59030, 905600, 69040, 18390, 92850, 9830, 900, 942830 };
 	int pins[15] = { 1234, 5362, 9302, 4924, 4892, 4953, 59034, 5903, 9056, 6904, 6839, 9285, 9830, 9009, 94283 };
 	string names[15] = { "Ray", "Jay", "May", "June", "Ritha", "ana", "Ada", "Kay", "iris", "issa", "Jon", "Honey", "sis", "John", "chan" };
@@ -64,16 +68,7 @@ int main() {
 	}
  	
 	cout << "See you and thank you for using our ATM \n";
+	
+	return 0;
 }
 
-
-int showbalance()
-{
-	
-	
-	
-	
-	
-	
-	
-}
